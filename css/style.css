@@ -7,7 +7,7 @@
   overflow: hidden;
   --primary-color: #ff42a5;
   --secondary-color: rgba(249, 72, 178, 1), rgba(135, 88, 241, 1);
-  --optional-color: #4EC5F7;
+  --optional-color: #4ec5f7;
 }
 body {
   font-family: "Work Sans", sans-serif;
@@ -26,21 +26,21 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
   padding: 15px 30px;
   border: none;
 }
-.secondary_btn{
-    color: #fff;
-    font-family: "Work Sans", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-radius: 48px;
-    background: var(--optional-color);
-    padding: 15px 30px;
-    border: none;
+.secondary_btn {
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 48px;
+  background: var(--optional-color);
+  padding: 15px 30px;
+  border: none;
 }
 /* navbar css start */
 nav {
@@ -102,3 +102,48 @@ nav {
   padding: 0 10px;
 }
 /* navbar css end */
+/* banner css start */
+.shape {
+  background-image: url(/images/Group\ 14.png);
+  background-repeat: no-repeat;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner_subtitle {
+  color: #0b0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+}
+.banner_title {
+    padding: 24px 0;
+  font-family: Work Sans;
+  font-size: 95px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner_para2{
+    padding: 17px 0;
+}
+.banner_para {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+}
+/* banner css end */
