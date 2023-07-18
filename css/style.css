@@ -4,7 +4,7 @@
 }
 :root {
   box-sizing: border-box;
-  overflow: hidden;
+
   --primary-color: #ff42a5;
   --secondary-color: rgba(249, 72, 178, 1), rgba(135, 88, 241, 1);
   --optional-color: #4ec5f7;
@@ -145,5 +145,18 @@ nav {
   font-weight: 500;
   line-height: normal;
   text-transform: lowercase;
+  display: flex;
+  gap: 12px;
+}
+.button_group{
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
 }
 /* banner css end */
