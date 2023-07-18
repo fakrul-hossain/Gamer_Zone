@@ -9,3 +9,14 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+
+
+/* Styles for small devices (e.g., smartphones) */
+@media (max-width: 480px) {
+   
+  }
+  
+  /* Styles for medium devices (e.g., larger smartphones, small tablets) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    
+  }

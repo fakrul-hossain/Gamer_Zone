@@ -6,7 +6,7 @@
   box-sizing: border-box;
   overflow: hidden;
   --primary-color: #FF42A5;
-  --scoendry-color: #FF42A5;
+  --secondary-color: rgba(249, 72, 178, 1), rgba(135, 88, 241, 1);
 }
 body {
   font-family: "Work Sans", sans-serif;
@@ -35,6 +35,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+.title_logo{
+    color: var(--primary-color);
 }
 .navbar {
   display: flex;
