@@ -13,10 +13,21 @@ body{
 
 /* Styles for small devices (e.g., smartphones) */
 @media (max-width: 480px) {
-   
+    nav{
+        box-shadow: none;
+    }
+    .navbar{
+        gap: 50px;
+    }
+   .navbar, .nav_item ul{
+    flex-direction: column;
+   }
   }
   
   /* Styles for medium devices (e.g., larger smartphones, small tablets) */
   @media (min-width: 481px) and (max-width: 768px) {
-    
+    .navbar{
+        flex-direction: column;
+        gap: 40px;
+       }
   }
