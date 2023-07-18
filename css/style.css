@@ -29,6 +29,7 @@ body {
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
   padding: 15px 30px;
   border: none;
+  cursor: pointer;
 }
 .secondary_btn {
   color: #fff;
@@ -41,6 +42,7 @@ body {
   background: var(--optional-color);
   padding: 15px 30px;
   border: none;
+  cursor: pointer;
 }
 /* navbar css start */
 nav {
