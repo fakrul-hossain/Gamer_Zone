@@ -1,15 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-:root{
-    box-sizing: border-box;
-    overflow: hidden;
+:root {
+  box-sizing: border-box;
+  overflow: hidden;
+  --primary-color: #FF42A5;
+  --scoendry-color: #FF42A5;
 }
-body{
-    font-family: 'Work Sans', sans-serif;
+body {
+  font-family: "Work Sans", sans-serif;
 }
-.banner{
-    max-width: 1440px;
-    margin: 0 auto;
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
 }
+.navbar {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* navbar css start */
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+.title{
+    color: #0B0223;
+    font-family: "Work Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_item ul {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_item ul li {
+  list-style-type: none;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav_item ul li a {
+  text-decoration: none;
+  color: #3c354f;
+}
+.nav_item button {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+  cursor: pointer;
+}
+.fa-brands {
+  font-size: 24px;
+}
+.fa-youtube {
+  color: #f61c0d;
+  padding: 0 10px;
+}
+/* navbar css end */
