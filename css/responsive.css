@@ -189,4 +189,9 @@ body {
     gap: 20px;
     text-align: start;
   }
+  /* footer */
+  .footer_menu ul{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
 }
