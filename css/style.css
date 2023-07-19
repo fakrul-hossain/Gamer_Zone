@@ -354,7 +354,7 @@ footer{
 }
 .footer_title{
   color: #FFF;
-  font-family: "Work Sans", sans-serif;;
+  font-family: "Work Sans", sans-serif;
 font-size: 45px;
 
 font-weight: 700;
@@ -363,5 +363,52 @@ font-weight: 700;
 }
 .footer_subtitle{
   color: whitesmoke;
+}
+ul li{
+  list-style-type: none;
+  text-align: center;
+}
+ul li a{
+  text-decoration: none;
+}
+.footer_menu ul li a{
+  color: #FFF;
+/* text-align: center; */
+font-family: "Work Sans", sans-serif;
+font-size: 18px;
+font-weight: 600;
+}
+.footer_menu ul{
+  margin-top: 70px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 60px;
+}
+.social_link ul{
+  padding: 70px 0;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 40px;
+}
+.social_link fa-brands{
+  font-size: 100px;
+}
+.footer_terms ul{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 60px;
+}
+.footer_copyright{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.60);
+
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 /* footer end */
