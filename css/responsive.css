@@ -14,6 +14,7 @@ body {
 @media (max-width: 480px) {
   body {
     padding: 0 20px;
+    scroll-behavior: smooth;
   }
   nav {
     box-shadow: none;
@@ -90,6 +91,14 @@ body {
   }
   .card mg {
     width: 100px;
+  }
+  /* services */
+  .services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
   }
 }
 
