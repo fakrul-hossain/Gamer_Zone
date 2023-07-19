@@ -60,6 +60,11 @@ body {
   .mini_para{
     margin-top: 80px;
   }
+  /* videos  */
+  .videos{
+    flex-direction: column;
+    margin: 0 auto;
+  }
 }
 
 /* Styles for medium devices (e.g., larger smartphones, small tablets) */
@@ -95,4 +100,10 @@ body {
   .gamer_para{
     width: 520px;
   }
+  /* videos */
+  .videos{
+    flex-direction: column;
+    text-align: center;
+  }
+ 
 }

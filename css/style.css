@@ -219,6 +219,22 @@ nav {
 }
 .video_container{
   position: relative;
+  transition: 0.1sec;
+}
+.video_container:hover{
+  border:  3px solid var(--primary-color);
+  border-radius: 20px;
+  border-bottom-width: 15px;
+  .play{
+    visibility: visible;
+    transition: 0.1sec;
+  }
+  
+}
+.video_container img:hover{
+
+  opacity: 0.444;
+
 }
 .play{
   position: absolute;
@@ -228,6 +244,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  visibility: hidden;
 
 }
 .fa-play{
