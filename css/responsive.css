@@ -64,9 +64,6 @@ body {
     margin-top: 80px;
   }
   /* videos  */
-  .video_container{
-    
-  }
   .videos {
     flex-direction: column;
     margin: 0 auto;

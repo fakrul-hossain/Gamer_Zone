@@ -27,7 +27,7 @@ section {
 .gamer,
 .videos,
 .play_game,
-.services_section, .footer{
+.services, .footer{
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -323,20 +323,23 @@ nav {
   margin-right: auto;
 }
 .services_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
   color: #0b0223;
-  font-family: Work Sans;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   border-radius: 50px;
   background: #fff;
   font-family: "Work Sans", sans-serif;
   cursor: pointer;
   justify-content: center;
   align-items: center;
-  
+}
+.services_btn:hover {
+   border: 3px solid var(--primary-color);
+   color: var(--primary-color);
 }
 /* services css end */
 /* footer start */
