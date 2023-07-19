@@ -386,11 +386,15 @@ font-weight: 600;
  gap: 60px;
 }
 .social_link ul{
-  padding: 70px 0;
+  padding: 50px 0;
   display: flex;
  justify-content: center;
  align-items: center;
  gap: 40px;
+ 
+}
+.social_link ul li a{
+  color: #FFF;
 }
 .social_link fa-brands{
   font-size: 100px;
@@ -401,10 +405,13 @@ font-weight: 600;
  align-items: center;
  gap: 60px;
 }
+.footer_terms ul li a{
+  color: #FFF;
+}
 .footer_copyright{
   text-align: center;
   color: rgba(255, 255, 255, 0.60);
-
+margin-top: 30px;
 font-family: Work Sans;
 font-size: 16px;
 font-style: normal;
