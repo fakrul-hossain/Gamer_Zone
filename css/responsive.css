@@ -13,7 +13,7 @@ body {
 /* Styles for small devices (e.g., smartphones) */
 @media (max-width: 480px) {
   body {
-    padding: 0 20px;
+    /* padding: 0 20px; */
     scroll-behavior: smooth;
     overflow-x: hidden;
   }
@@ -50,6 +50,7 @@ body {
     margin-top: 100px;
   }
   .gamer {
+    
     flex-direction: column;
   }
   .gamer_img img {
@@ -63,9 +64,13 @@ body {
     margin-top: 80px;
   }
   /* videos  */
+  .video_container{
+    
+  }
   .videos {
     flex-direction: column;
     margin: 0 auto;
+    margin: 30px 30px;
   }
   /* paly game section */
   .download {
@@ -73,6 +78,7 @@ body {
     margin: 0 auto;
   }
   .play_game {
+    padding: 0 30px;
     flex-direction: column;
     margin: 0 auto;
   }
@@ -81,6 +87,7 @@ body {
     text-align: center;
   }
   .mobile_res {
+    
     width: 100%;
     text-align: center;
   }
@@ -102,6 +109,15 @@ body {
     gap: 20px;
     justify-content: center;
     align-items: center;
+  }
+  /* footer */
+  .footer_menu ul, .social_link ul{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+  }
+  .footer_terms ul{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
   }
 }
 
@@ -143,6 +159,7 @@ body {
   }
   /* paly game */
   .play_game {
+    
     flex-direction: column-reverse;
     margin: 0 auto;
     text-align: center;
