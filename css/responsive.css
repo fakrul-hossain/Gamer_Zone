@@ -15,6 +15,7 @@ body {
   body {
     padding: 0 20px;
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   nav {
     box-shadow: none;
@@ -67,7 +68,7 @@ body {
     margin: 0 auto;
   }
   /* paly game section */
-  .download{
+  .download {
     flex-direction: column-reverse;
     margin: 0 auto;
   }
@@ -75,10 +76,7 @@ body {
     flex-direction: column;
     margin: 0 auto;
   }
-  .download_para {
-    text-align: center;
-  }
-  .download_content, .paly_game_content{
+  .paly_game_content {
     padding-top: 150px;
     text-align: center;
   }
@@ -86,10 +84,15 @@ body {
     width: 100%;
     text-align: center;
   }
+  .play_game_card{
+    bottom: -68px;
+    right: 20px;
+   
+  }
   .mini_card {
     width: 30%;
   }
-  .card mg {
+  .card img {
     width: 100px;
   }
   /* services */
@@ -132,21 +135,41 @@ body {
   .mini_para {
     margin-top: 80px;
   }
-  .gamer_para {
-    width: 520px;
-  }
+
   /* videos */
   .videos {
     flex-direction: column;
     text-align: center;
   }
   /* paly game */
-  .download{
+  .play_game {
     flex-direction: column-reverse;
     margin: 0 auto;
+    text-align: center;
   }
-  .play_game {
+  
+
+.play_game_card {
+    padding: 0;
+    margin: 0;
+    /* width: 100%; */
+    position: absolute;
+    bottom: -161px;
+    left: -210px;
+}
+  .mobile_res {
+    padding-top: 50px;
+    width: 90%;
+    text-align: center;
+  }
+  .mini_card {
+    width: 50%;
+  }
+  .services {
+    padding-top: 100px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: start;
   }
 }

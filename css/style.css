@@ -26,9 +26,8 @@ section {
 .banner,
 .gamer,
 .videos,
-.download,
 .play_game,
-.services_section {
+.services_section, .footer{
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -283,30 +282,6 @@ nav {
   margin-top: 24px;
 }
 /* videos css end */
-/* download css start */
-.download {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.download_content {
-  text-align: right;
-}
-.download_content .download_title {
-  color: #0b0223;
-}
-.download_para {
-  margin-top: 24px;
-}
-.download_img {
-  position: relative;
-}
-.card {
-  position: absolute;
-  bottom: -88px;
-  left: -156px;
-}
-/* download css end */
 /* play game content css start*/
 .play_game {
   padding-top: 100px;
@@ -321,9 +296,12 @@ nav {
   position: relative;
 }
 .play_game_card {
+  padding: 0;
+  margin: 0;
+  width: 100%;
   position: absolute;
   bottom: -88px;
-  right: -156px;
+  right: -486px;
 }
 /* play game content css end*/
 /* services css start */
@@ -340,6 +318,9 @@ nav {
   gap: 20px;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 .services_btn {
   border: none;
@@ -358,3 +339,29 @@ nav {
   
 }
 /* services css end */
+/* footer start */
+footer{
+  background-color: #0B0223;
+}
+.footer{
+  padding: 50px;
+}
+.footer_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer_title{
+  color: #FFF;
+  font-family: "Work Sans", sans-serif;;
+font-size: 45px;
+
+font-weight: 700;
+
+  color: var(--primary-color);
+}
+.footer_subtitle{
+  color: whitesmoke;
+}
+/* footer end */
