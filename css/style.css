@@ -25,7 +25,10 @@ section {
 .navbar,
 .banner,
 .gamer,
-.videos, .download, .play_game {
+.videos,
+.download,
+.play_game,
+.services_section {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -225,8 +228,10 @@ nav {
 .video_container {
   position: relative;
   transition: 0.1sec;
+  transition: 0.1sec ease-in-out;
 }
 .video_container:hover {
+  transition: 0.1sec ease-in-out;
   border: 3px solid var(--primary-color);
   border-radius: 20px;
   border-bottom-width: 15px;
@@ -240,6 +245,7 @@ nav {
 } */
 .video_container img:hover {
   opacity: 0.44;
+  transition: 0.1sec ease-in-out;
 }
 .play {
   position: absolute;
@@ -278,45 +284,77 @@ nav {
 }
 /* videos css end */
 /* download css start */
-.download{
+.download {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.download_content{
+.download_content {
   text-align: right;
 }
-.download_content .download_title{
-  color: #0B0223;
+.download_content .download_title {
+  color: #0b0223;
 }
-.download_para{
+.download_para {
   margin-top: 24px;
 }
-.download_img{
+.download_img {
   position: relative;
 }
-.card{
-position: absolute;
-bottom: -88px;
-left: -156px;
+.card {
+  position: absolute;
+  bottom: -88px;
+  left: -156px;
 }
 /* download css end */
 /* play game content css start*/
-.play_game{
+.play_game {
   padding-top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.play_game_content{
+.play_game_content {
   text-align: start;
 }
-.play_game_img{
+.play_game_img {
   position: relative;
 }
-.play_game_card{
-position: absolute;
-bottom: -88px;
-right: -156px;
+.play_game_card {
+  position: absolute;
+  bottom: -88px;
+  right: -156px;
 }
 /* play game content css end*/
+/* services css start */
+.services_section {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.services {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.services_btn {
+  border: none;
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 50px;
+  background: #fff;
+  font-family: "Work Sans", sans-serif;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* services css end */
