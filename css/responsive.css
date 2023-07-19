@@ -56,6 +56,7 @@ body {
   .gamer_content{
     text-align: center;
   }
+  
   .mini_para{
     margin-top: 80px;
   }
@@ -90,5 +91,8 @@ body {
   }
   .mini_para{
     margin-top: 80px;
+  }
+  .gamer_para{
+    width: 520px;
   }
 }
