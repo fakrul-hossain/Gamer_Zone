@@ -50,7 +50,6 @@ body {
     margin-top: 100px;
   }
   .gamer {
-    
     flex-direction: column;
   }
   .gamer_img img {
@@ -84,14 +83,12 @@ body {
     text-align: center;
   }
   .mobile_res {
-    
     width: 100%;
     text-align: center;
   }
-  .play_game_card{
+  .play_game_card {
     bottom: -68px;
     right: 20px;
-   
   }
   .mini_card {
     width: 30%;
@@ -102,17 +99,18 @@ body {
   /* services */
   .services {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
     justify-content: center;
     align-items: center;
   }
   /* footer */
-  .footer_menu ul, .social_link ul{
+  .footer_menu ul,
+  .social_link ul {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
   }
-  .footer_terms ul{
+  .footer_terms ul {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
   }
@@ -151,26 +149,27 @@ body {
 
   /* videos */
   .videos {
-    flex-direction: column;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 20px; 
   }
   /* paly game */
   .play_game {
-    
     flex-direction: column-reverse;
     margin: 0 auto;
     text-align: center;
   }
-  
 
-.play_game_card {
+  .play_game_card {
     padding: 0;
     margin: 0;
     /* width: 100%; */
     position: absolute;
     bottom: -161px;
     left: -210px;
-}
+  }
   .mobile_res {
     padding-top: 50px;
     width: 90%;
@@ -187,7 +186,7 @@ body {
     text-align: start;
   }
   /* footer */
-  .footer_menu ul{
+  .footer_menu ul {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
   }
